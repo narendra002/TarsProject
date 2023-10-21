@@ -12,7 +12,7 @@ const SearchBar = ({ onSearch }) => {
       <input
         type="text"
         placeholder="Search for photos..."
-        className="p-2 m-10 border rounded w-2/6"
+        className="p-2 m-2 border rounded w-4/6"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
